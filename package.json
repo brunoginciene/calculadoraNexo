@@ -1,0 +1,27 @@
+{
+  "name": "calculadora_nexo",
+  "version": "1.0.0",
+  "description": "Calculadora para Compensação Ambiental",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoginciene/calculadoraNexo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunoginciene/calculadoraNexo/issues"
+  },
+  "homepage": "https://github.com/brunoginciene/calculadoraNexo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
