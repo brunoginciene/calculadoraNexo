@@ -1,6 +1,7 @@
 fatores = {
     estagioInicial: {
         titulo: "Estágio Inicial de Regeneração",
+        grupo: "estagioInicial",
         pesos: {
             muitoAlta: {
                 id: "estagioInicial_muitoAlta",
@@ -26,6 +27,7 @@ fatores = {
     },
     estagioMedio: {
         titulo: "Estágio Médio de Regeneração",
+        grupo: "estagioMedio",
         pesos:{
             muitoAlta: {
                 id: "estagioMedio_muitoAlta",
@@ -51,6 +53,7 @@ fatores = {
     },
     estagioAvancado: {
         titulo: "Estágio Avançado de Regeneração",
+        grupo: "estagioAvancado",
         pesos:{
             muitoAlta: {
                 id: "estagioAvancado_muitoAlta",
@@ -76,6 +79,7 @@ fatores = {
     },
     mangue: {
         titulo: "Mangue",
+        grupo: "mangue",
         pesos: {
             mangueFator: {
                 id: "mangue_mangueFator",
@@ -87,6 +91,7 @@ fatores = {
     },
     cerrado: {
         titulo: "Cerrado",
+        grupo: "cerrado",
         pesos: {
             cerradoFator: {
                 id: "cerrado_cerradoFator",
@@ -98,6 +103,7 @@ fatores = {
     },
     arvoresIsoladas: {
         titulo: "Árvores Isoladas",
+        grupo: "arvoresIsoladas",
         pesos: {
             ameacada: {
                 id: "arvoresIsoladas_ameacada",
@@ -123,6 +129,7 @@ fatores = {
     },
     app: {
         titulo: "APP",
+        grupo: "app",
         pesos:{
             muitoAlta: {
                 id: "app_muitoAlta",
@@ -248,7 +255,10 @@ for (i in fatores){
 // Função calcular
 function calcular(){
     var lista = document.querySelectorAll("input.calculadora")
-    console.log(lista)
+    for (i=0; i < lista.length; i++){
+        var classElement = lista[i].attributes.class.ownerElement.classList[0]
+        console.log(fatores[classElement].grupo == classElement)
+    }
 }
 
 
