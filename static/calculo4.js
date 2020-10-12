@@ -223,19 +223,6 @@ for (i in fatores){
         var dadoColuna3Text = document.createTextNode("...")
         dadoColuna3.appendChild(dadoColuna3Text)
         tabelaLinha.appendChild(dadoColuna3)
-        
-        ////// Funcao calcula linha
-        function calculaLinha() {
-            var valorInput = document.getElementById(pesos[peso].id).value
-            var valorPeso = pesos[peso].valor
-            var resultadoDestino = document.getElementById(pesos[peso].id)
-            if (valorInput == pesos[peso].id){
-                var valorProduto = valorInput * valorPeso
-            }
-            
-
-        }
-
     }
     ////// Cria a linha do resultado de cada tabela
     var totalLinha = document.createElement("tr")
@@ -254,6 +241,26 @@ for (i in fatores){
     totalColuna3.setAttribute("class", "resultado")
     var totalColuna3Text = document.createTextNode("...")
     totalColuna3.appendChild(totalColuna3Text)
-    totalLinha.appendChild(totalColuna3)
-     
+    totalLinha.appendChild(totalColuna3) 
 }
+
+
+// Função calcular
+function calcular(){
+    var lista = document.querySelectorAll(".calculadora")
+    console.log(lista)
+}
+
+
+// Cria o botão "Calcular"
+var botaoCalcular = document.createElement("button")
+botaoCalcular.setAttribute("type", "button")
+botaoCalcular.setAttribute("id", "button")
+botaoCalcular.setAttribute("class", "btn btn-warning btn-block")
+//// Cria o texto do botão "Calcular"
+var botaoText = document.createTextNode("Calcular")
+botaoCalcular.appendChild(botaoText)
+////Adicionar a função ao botão
+document.addEventListener("click", calcular)
+//// Adicionao o botão ao "container"(div)
+divDestino.appendChild(botaoCalcular)
