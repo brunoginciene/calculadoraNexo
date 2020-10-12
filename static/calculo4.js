@@ -213,7 +213,7 @@ for (i in fatores){
         var dadoColuna2 = document.createElement("td")
         var entrada = document.createElement("input")
         entrada.setAttribute("type", "number")
-        entrada.setAttribute("class", i)
+        entrada.setAttribute("class", i + " calculadora")
         entrada.setAttribute("id", pesos[peso].id)
         dadoColuna2.appendChild(entrada)
         tabelaLinha.appendChild(dadoColuna2)
@@ -247,7 +247,7 @@ for (i in fatores){
 
 // Função calcular
 function calcular(){
-    var lista = document.querySelectorAll(".calculadora")
+    var lista = document.querySelectorAll("input.calculadora")
     console.log(lista)
 }
 
