@@ -220,7 +220,7 @@ for (i in fatores){
         var dadoColuna2 = document.createElement("td")
         var entrada = document.createElement("input")
         entrada.setAttribute("type", "number")
-        entrada.setAttribute("class", i + " calculadora")
+        entrada.setAttribute("class", i)
         entrada.setAttribute("id", pesos[peso].id)
         dadoColuna2.appendChild(entrada)
         tabelaLinha.appendChild(dadoColuna2)
@@ -254,25 +254,16 @@ for (i in fatores){
 
 // Função calcular
 function calcular(){
-    var lista = document.querySelectorAll("input.calculadora")
-    var soma = []
-    for (i=0; i < lista.length; i++){
-        var inputClass = lista[i].attributes.class.ownerElement.classList[0]
-        var inputID = lista[i].attributes.id.value
-        var inputValor = lista[i].value
-        var multiplicador = fatores[inputClass].pesos[inputID].valor
+    var listaDivs = document.querySelectorAll(".calculadora")
+    for (i=0; i < listaDivs.length; i++){
+        var elemento = listaDivs[i]
+        var elementoID = listaDivs[i].attributes.id.value
         
-        for (veg in fatores){
-            if(fatores[veg].grupo == inputClass){
-                console.log(fatores[veg].grupo)
-                console.log(multiplicador)
-            }
+        console.log(elementoID)
+        var inputs = elemento.querySelectorAll("input")
+        for (x=0; x < inputs.length; x++){
+            console.log(inputs[x])
         }
-        
-        
-        
-        
-
         
     }
 }
