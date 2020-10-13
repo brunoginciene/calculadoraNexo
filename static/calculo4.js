@@ -1,24 +1,24 @@
-fatores = {
+var fatores = {
     estagioInicial: {
         titulo: "Estágio Inicial de Regeneração",
         grupo: "estagioInicial",
         pesos: {
-            muitoAlta: {
+            estagioInicial_muitoAlta: {
                 id: "estagioInicial_muitoAlta",
                 nome: "Muito Alta",
                 valor: 2
             }, 
-            alta: {
+            estagioInicial_alta: {
                 id: "estagioInicial_alta",
                 nome: "Alta",
                 valor: 1.8
             }, 
-            media: {
+            estagioInicial_media: {
                 id: "estagioInicial_media",
                 nome: "Média",
                 valor: 1.5
             }, 
-            baixa: {
+            estagioInicial_baixa: {
                 id: "estagioInicial_baixa",
                 nome: "Baixa",
                 valor: 1.25
@@ -29,22 +29,22 @@ fatores = {
         titulo: "Estágio Médio de Regeneração",
         grupo: "estagioMedio",
         pesos:{
-            muitoAlta: {
+            estagioMedio_muitoAlta: {
                 id: "estagioMedio_muitoAlta",
                 nome: "Muito Alta",
                 valor: 3
             }, 
-            alta: {
+            estagioMedio_alta: {
                 id: "estagioMedio_alta",
                 nome: "Alta",
                 valor: 1.5
             }, 
-            media: {
+            estagioMedio_media: {
                 id: "estagioMedio_media",
                 nome: "Média",
                 valor: 2
             }, 
-            baixa: {
+            estagioMedio_baixa: {
                 id: "estagioMedio_baixa",
                 nome: "Baixa",
                 valor: 1.5
@@ -55,22 +55,22 @@ fatores = {
         titulo: "Estágio Avançado de Regeneração",
         grupo: "estagioAvancado",
         pesos:{
-            muitoAlta: {
+            estagioAvancado_muitoAlta: {
                 id: "estagioAvancado_muitoAlta",
                 nome: "Muito Alta",
                 valor: 6
             }, 
-            alta: {
+            estagioAvancado_alta: {
                 id: "estagioAvancado_alta",
                 nome: "Alta",
                 valor: 5
             }, 
-            media: {
+            estagioAvancado_media: {
                 id: "estagioAvancado_media",
                 nome: "Média",
                 valor: 3
             }, 
-            baixa: {
+            estagioAvancado_baixa: {
                 id: "estagioAvancado_baixa",
                 nome: "Baixa",
                 valor: 2
@@ -81,7 +81,7 @@ fatores = {
         titulo: "Mangue",
         grupo: "mangue",
         pesos: {
-            mangueFator: {
+            mangue_mangueFator: {
                 id: "mangue_mangueFator",
                 nome: "Mangue",
                 valor: 6
@@ -93,7 +93,7 @@ fatores = {
         titulo: "Cerrado",
         grupo: "cerrado",
         pesos: {
-            cerradoFator: {
+            cerrado_cerradoFator: {
                 id: "cerrado_cerradoFator",
                 nome: "Cerrado",
                 valor: 6
@@ -105,22 +105,22 @@ fatores = {
         titulo: "Árvores Isoladas",
         grupo: "arvoresIsoladas",
         pesos: {
-            ameacada: {
+            arvoresIsoladas_ameacada: {
                 id: "arvoresIsoladas_ameacada",
                 nome: "Ameaçada",
                 valor: 30
             },
-            maiorIgual20: {
+            arvoresIsoladas_maiorIgual20: {
                 id: "arvoresIsoladas_maiorIgual20",
                 nome: "maiorIgual20",
                 valor: 10
             },
-            entre20e5: {
+            arvoresIsoladas_entre20e5: {
                 id: "arvoresIsoladas_entre20e5",
                 nome: "entre20e5",
                 valor: 15
             },
-            menorIgual5: {
+            arvoresIsoladas_menorIgual5: {
                 id: "arvoresIsoladas_menorIgual5",
                 nome: "menorIgual5",
                 valor: 25
@@ -131,22 +131,22 @@ fatores = {
         titulo: "APP",
         grupo: "app",
         pesos:{
-            muitoAlta: {
+            app_muitoAlta: {
                 id: "app_muitoAlta",
                 nome: "Muito Alta",
                 valor: 6
             }, 
-            alta: {
+            app_alta: {
                 id: "app_alta",
                 nome: "Alta",
                 valor: 5
             }, 
-            media: {
+            app_media: {
                 id: "app_media",
                 nome: "Média",
                 valor: 3
             }, 
-            baixa: {
+            app_baixa: {
                 id: "app_baixa",
                 nome: "Baixa",
                 valor: 2
@@ -255,9 +255,25 @@ for (i in fatores){
 // Função calcular
 function calcular(){
     var lista = document.querySelectorAll("input.calculadora")
+    var soma = []
     for (i=0; i < lista.length; i++){
-        var classElement = lista[i].attributes.class.ownerElement.classList[0]
-        console.log(fatores[classElement].grupo == classElement)
+        var inputClass = lista[i].attributes.class.ownerElement.classList[0]
+        var inputID = lista[i].attributes.id.value
+        var inputValor = lista[i].value
+        var multiplicador = fatores[inputClass].pesos[inputID].valor
+        
+        for (veg in fatores){
+            if(fatores[veg].grupo == inputClass){
+                console.log(fatores[veg].grupo)
+                console.log(multiplicador)
+            }
+        }
+        
+        
+        
+        
+
+        
     }
 }
 
@@ -271,6 +287,6 @@ botaoCalcular.setAttribute("class", "btn btn-warning btn-block")
 var botaoText = document.createTextNode("Calcular")
 botaoCalcular.appendChild(botaoText)
 ////Adicionar a função ao botão
-document.addEventListener("click", calcular)
+botaoCalcular.addEventListener("click", calcular)
 //// Adicionao o botão ao "container"(div)
 divDestino.appendChild(botaoCalcular)
