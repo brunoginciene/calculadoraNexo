@@ -1,2 +1,2 @@
-# calculadoraNexo
-Calculadora para Compensação Ambiental. Tecnologia aplicada ao Meio Ambiente desenvolvida pela http://nexoambiental.com.br/
+# Calculadora para Compensação Ambiental
+Solução tecnológica aplicada ao Meio Ambiente desenvolvida pela Nexo Meio Ambiente e Tecnologia. Saiba mais em: http://nexoambiental.com.br/
