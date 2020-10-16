@@ -251,9 +251,63 @@ for (i in fatores){
     totalLinha.appendChild(totalColuna3) 
 }
 
+// Cria a div do resultado final
+var divResultado = document.createElement("div")
+divResultado.setAttribute("class", "resultado")
+divResultado.setAttribute("id", "resultadofinal")
+divDestino.appendChild(divResultado)
+//// Cria título da div resultado (elemento h4)
+var divResultadoTitulo = document.createElement("h4")
+divResultadoTitulo.setAttribute("class", "titulo")
+divResultadoTitulo.setAttribute("id", "resultadofinaltitulo")
+var divResultadoTituloTexto = document.createTextNode("Total Final")
+divResultadoTitulo.appendChild(divResultadoTituloTexto)
+divResultado.appendChild(divResultadoTitulo)
+//// Cria tabela do resultado final
+var tabelaFinal = document.createElement("table")
+tabelaFinal.setAttribute("class", "table table-borderless table-dark")
+divResultado.appendChild(tabelaFinal)
+////// Cria header da tabela
+var resultadoTabelaHead = document.createElement("thead")
+tabelaFinal.appendChild(resultadoTabelaHead)
+//////// Cria linha do header da tabela
+var resultadoTabelaHeadRow = document.createElement("tr")
+resultadoTabelaHead.appendChild(resultadoTabelaHeadRow)
+////////// Cria conteudo da linha do header da tabela
+//////////// Cria coluna 1
+var resultadoColuna1 = document.createElement("th")
+resultadoColuna1.setAttribute("scope", "col")
+resultadoTabelaHeadRow.appendChild(resultadoColuna1)
+//////////// Cria coluna 2
+var resultadoColuna2 = document.createElement("th")
+resultadoColuna2.setAttribute("scope", "col")
+var resultadoColuna2Text = document.createTextNode("Compensação (ha)")
+resultadoColuna2.appendChild(resultadoColuna2Text)
+resultadoTabelaHeadRow.appendChild(resultadoColuna2)
+///// Cria body da tabela
+var resultadoTabelaBody = document.createElement("tbody")
+tabelaFinal.appendChild(resultadoTabelaBody)
+////// Cria a linha do resultado de cada tabela
+var resultadoTotalLinha = document.createElement("tr")
+resultadoTabelaBody.appendChild(resultadoTotalLinha)
+////// Conteudo na linha do resultado na coluna 1 
+var resultadoTotalColuna1 = document.createElement("th")
+resultadoTotalColuna1.setAttribute("scope", "row")
+var resultadoTotalColuna1Text = document.createTextNode("TOTAL")
+resultadoTotalColuna1.appendChild(resultadoTotalColuna1Text)
+resultadoTotalLinha.appendChild(resultadoTotalColuna1)
+////// Conteudo na linha do resultado na coluna 2
+var resultadoTotalColuna2 = document.createElement("td")
+resultadoTotalColuna2.setAttribute("id", "totalFinal")
+var resultadoTotalColuna2Text = document.createTextNode("...")
+resultadoTotalColuna2.appendChild(resultadoTotalColuna2Text)
+resultadoTotalLinha.appendChild(resultadoTotalColuna2)
+
+
 
 // Função calcular
 function calcular(){
+    var resultadoArray = []
     var listaDivs = document.querySelectorAll(".calculadora")
     for (div=0; div < listaDivs.length; div++){
         var somaArray = []
@@ -278,10 +332,14 @@ function calcular(){
         var soma = somaArray.reduce((somaFinal, currentElement) => somaFinal + currentElement)
         var elementoResultado = elemento.querySelector("td." + elementoID)
         elementoResultado.innerHTML = soma
-        console.log(soma)
+        resultadoArray.push(soma)
 
-        
+        console.log(soma)
     }
+    var resultadoFinal = resultadoArray.reduce((final, current) => final + current)
+    var elementoFinal = document.querySelector("#totalFinal")
+    elementoFinal.innerHTML = resultadoFinal
+    console.log(resultadoFinal)
 }
 
 

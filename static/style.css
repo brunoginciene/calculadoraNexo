@@ -21,3 +21,15 @@ input {
     text-align: end;
     
 }
+
+.resultado {
+    margin-top: 30px;
+}
+
+.resultado .titulo {
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    text-align: center
+}
