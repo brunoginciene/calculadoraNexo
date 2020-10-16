@@ -220,13 +220,13 @@ for (i in fatores){
         var dadoColuna2 = document.createElement("td")
         var entrada = document.createElement("input")
         entrada.setAttribute("type", "number")
-        entrada.setAttribute("class", i)
+        entrada.setAttribute("class", pesos[peso].id)
         entrada.setAttribute("id", pesos[peso].id)
         dadoColuna2.appendChild(entrada)
         tabelaLinha.appendChild(dadoColuna2)
         ////// Conteudo da linha na coluna 3
         var dadoColuna3 = document.createElement("td")
-        dadoColuna3.setAttribute("class", "out")
+        dadoColuna3.setAttribute("class", pesos[peso].id)
         var dadoColuna3Text = document.createTextNode("...")
         dadoColuna3.appendChild(dadoColuna3Text)
         tabelaLinha.appendChild(dadoColuna3)
@@ -245,7 +245,7 @@ for (i in fatores){
     totalLinha.appendChild(totalColuna2)
     ////// Conteudo na linha do resultado na coluna 3
     var totalColuna3 = document.createElement("td")
-    totalColuna3.setAttribute("class", "resultado")
+    totalColuna3.setAttribute("class", i)
     var totalColuna3Text = document.createTextNode("...")
     totalColuna3.appendChild(totalColuna3Text)
     totalLinha.appendChild(totalColuna3) 
@@ -255,15 +255,31 @@ for (i in fatores){
 // Função calcular
 function calcular(){
     var listaDivs = document.querySelectorAll(".calculadora")
-    for (i=0; i < listaDivs.length; i++){
-        var elemento = listaDivs[i]
-        var elementoID = listaDivs[i].attributes.id.value
+    for (div=0; div < listaDivs.length; div++){
+        var somaArray = []
+        var elemento = listaDivs[div]
+        var elementoID = listaDivs[div].attributes.id.value
         
         console.log(elementoID)
-        var inputs = elemento.querySelectorAll("input")
-        for (x=0; x < inputs.length; x++){
-            console.log(inputs[x])
+
+        var listaInputs = elemento.querySelectorAll("input")
+        for (input=0; input < listaInputs.length; input++){
+            var entrada = listaInputs[input]
+            var entradaID = entrada.id
+            var entradaValor = entrada.value
+            var multiplicador = fatores[elementoID].pesos[entrada.id].valor
+            var resultado = entradaValor*multiplicador
+            var elementoSaida = elemento.querySelector("td." + entradaID)
+            elementoSaida.innerHTML = resultado
+            somaArray.push(resultado)
         }
+
+        console.log(somaArray)
+        var soma = somaArray.reduce((somaFinal, currentElement) => somaFinal + currentElement)
+        var elementoResultado = elemento.querySelector("td." + elementoID)
+        elementoResultado.innerHTML = soma
+        console.log(soma)
+
         
     }
 }
