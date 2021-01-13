@@ -37,7 +37,7 @@ var fatores = {
             estagioMedio_alta: {
                 id: "estagioMedio_alta",
                 nome: "Alta",
-                valor: 1.5
+                valor: 2.5
             }, 
             estagioMedio_media: {
                 id: "estagioMedio_media",
@@ -77,6 +77,59 @@ var fatores = {
             }
         }
     },
+    arvoresIsoladas: {
+        titulo: "Árvores Isoladas",
+        grupo: "arvoresIsoladas",
+        pesos: {
+            arvoresIsoladas_maiorIgual20: {
+                id: "arvoresIsoladas_maiorIgual20",
+                nome: "Maior ou igual a 20",
+                valor: 0.006
+            },
+            arvoresIsoladas_entre20e5: {
+                id: "arvoresIsoladas_entre20e5",
+                nome: "Entre 20 e 5",
+                valor: 0.009
+            },
+            arvoresIsoladas_menorIgual5: {
+                id: "arvoresIsoladas_menorIgual5",
+                nome: "Menor ou igual a 5",
+                valor: 0.015
+            },
+            arvoresIsoladas_ameacada: {
+                id: "arvoresIsoladas_ameacada",
+                nome: "Espécie Ameaçada",
+                valor: 0.018
+            }
+        }
+    },
+    app: {
+        titulo: "APP",
+        grupo: "app",
+        pesos:{
+            app_muitoAlta: {
+                id: "app_muitoAlta",
+                nome: "Muito Alta",
+                valor: 2
+            }, 
+            app_alta: {
+                id: "app_alta",
+                nome: "Alta",
+                valor: 1.6
+            }, 
+            app_media: {
+                id: "app_media",
+                nome: "Média",
+                valor: 1.4
+            }, 
+            app_baixa: {
+                id: "app_baixa",
+                nome: "Baixa",
+                valor: 1.2
+            }
+
+        }
+    },
     mangue: {
         titulo: "Mangue",
         grupo: "mangue",
@@ -96,62 +149,10 @@ var fatores = {
             cerrado_cerradoFator: {
                 id: "cerrado_cerradoFator",
                 nome: "Cerrado",
-                valor: 6
+                valor: 3
             }
         }
         
-    },
-    arvoresIsoladas: {
-        titulo: "Árvores Isoladas",
-        grupo: "arvoresIsoladas",
-        pesos: {
-            arvoresIsoladas_ameacada: {
-                id: "arvoresIsoladas_ameacada",
-                nome: "Ameaçada",
-                valor: 30
-            },
-            arvoresIsoladas_maiorIgual20: {
-                id: "arvoresIsoladas_maiorIgual20",
-                nome: "maiorIgual20",
-                valor: 10
-            },
-            arvoresIsoladas_entre20e5: {
-                id: "arvoresIsoladas_entre20e5",
-                nome: "entre20e5",
-                valor: 15
-            },
-            arvoresIsoladas_menorIgual5: {
-                id: "arvoresIsoladas_menorIgual5",
-                nome: "menorIgual5",
-                valor: 25
-            }
-        }
-    },
-    app: {
-        titulo: "APP",
-        grupo: "app",
-        pesos:{
-            app_muitoAlta: {
-                id: "app_muitoAlta",
-                nome: "Muito Alta",
-                valor: 6
-            }, 
-            app_alta: {
-                id: "app_alta",
-                nome: "Alta",
-                valor: 5
-            }, 
-            app_media: {
-                id: "app_media",
-                nome: "Média",
-                valor: 3
-            }, 
-            app_baixa: {
-                id: "app_baixa",
-                nome: "Baixa",
-                valor: 2
-            }
-        }
     }
 }
 
@@ -162,20 +163,26 @@ for (i in fatores){
     
     // Cria a div da calculadora
     var calculadora = document.createElement("div")
-    calculadora.setAttribute("class", "calculadora")
+    calculadora.setAttribute("class", "col-lg-4 col-md-6 text-center calculadora")
     calculadora.setAttribute("id", i)
     divDestino.appendChild(calculadora)
     
-    //// Cria título da calculadora (elemento h4)
-    var titulo = document.createElement("h4")
-    titulo.setAttribute("class", "titulo")
+    //// Cria título da calculadora (botão liga/desliga)
+    var titulo = document.createElement("a")
+    titulo.setAttribute("class", "btn btn-primary titulo")
+    titulo.setAttribute("data-toggle", "collapse")
+    titulo.setAttribute("href", "#" + i + "Table")
+    titulo.setAttribute("aria-controls", i + "Table")
+    titulo.setAttribute("role", "button")
+    titulo.setAttribute("aria-expanded", "false")
     var tituloTexto = document.createTextNode(fatores[i].titulo)
     titulo.appendChild(tituloTexto)
     calculadora.appendChild(titulo)
 
     //// Cria tabela
     var tabela = document.createElement("table")
-    tabela.setAttribute("class", "table table-borderless table-dark")
+    tabela.setAttribute("class", "table table-borderless table-dark collapse")
+    tabela.setAttribute("id", i + "Table")
     calculadora.appendChild(tabela)
     ////// Cria header da tabela
     var tabelaHead = document.createElement("thead")
@@ -187,19 +194,37 @@ for (i in fatores){
     //////////// Cria coluna 1
     var coluna1 = document.createElement("th")
     coluna1.setAttribute("scope", "col")
-    var coluna1Text = document.createTextNode("Prioridade")
-    coluna1.appendChild(coluna1Text)
-    tabelaHeadRow.appendChild(coluna1)
+    //////////// Verifica condição para preencher o título da Colua 1
+    if (i == "arvoresIsoladas"){
+        var coluna1Text = document.createTextNode("Cobertura Vegetal Local (%)")
+        coluna1.appendChild(coluna1Text)
+        tabelaHeadRow.appendChild(coluna1)
+    } else if (i == "mangue" || i == "cerrado"){
+        var coluna1Text = document.createTextNode("")
+        coluna1.appendChild(coluna1Text)
+        tabelaHeadRow.appendChild(coluna1)
+    } else {
+        var coluna1Text = document.createTextNode("Prioridade")
+        coluna1.appendChild(coluna1Text)
+        tabelaHeadRow.appendChild(coluna1)
+    }
     //////////// Cria coluna 2
     var coluna2 = document.createElement("th")
     coluna2.setAttribute("scope", "col")
-    var coluna2Text = document.createTextNode("Área (ha)")
-    coluna2.appendChild(coluna2Text)
-    tabelaHeadRow.appendChild(coluna2)
+    //////////// Verifica condição para preencher o título da Colua 2
+    if (i == "arvoresIsoladas"){
+        var coluna2Text = document.createTextNode("N° de árvores")
+        coluna2.appendChild(coluna2Text)
+        tabelaHeadRow.appendChild(coluna2)
+    } else{
+        var coluna2Text = document.createTextNode("Área (ha)")
+        coluna2.appendChild(coluna2Text)
+        tabelaHeadRow.appendChild(coluna2)
+    }
     //////////// Cria coluna 3
     var coluna3 = document.createElement("th")
     coluna3.setAttribute("scope", "col")
-    var coluna3Text = document.createTextNode("Compensação (ha)")
+    var coluna3Text = document.createTextNode("Compensar (ha)")
     coluna3.appendChild(coluna3Text)
     tabelaHeadRow.appendChild(coluna3)
     ///// Cria body da tabela
@@ -253,55 +278,22 @@ for (i in fatores){
 
 // Cria a div do resultado final
 var divResultado = document.createElement("div")
-divResultado.setAttribute("class", "resultado")
+divResultado.setAttribute("class", "col-lg-4 col-md-6 text-center resultado")
 divResultado.setAttribute("id", "resultadofinal")
 divDestino.appendChild(divResultado)
-//// Cria título da div resultado (elemento h4)
-var divResultadoTitulo = document.createElement("h4")
-divResultadoTitulo.setAttribute("class", "titulo")
+//// Cria título da div resultado
+var divResultadoTitulo = document.createElement("a")
+divResultadoTitulo.setAttribute("class", "btn btn-primary")
 divResultadoTitulo.setAttribute("id", "resultadofinaltitulo")
-var divResultadoTituloTexto = document.createTextNode("Total Final")
+var divResultadoTituloTexto = document.createTextNode("TOTAL FINAL = ")
 divResultadoTitulo.appendChild(divResultadoTituloTexto)
 divResultado.appendChild(divResultadoTitulo)
-//// Cria tabela do resultado final
-var tabelaFinal = document.createElement("table")
-tabelaFinal.setAttribute("class", "table table-borderless table-dark")
-divResultado.appendChild(tabelaFinal)
-////// Cria header da tabela
-var resultadoTabelaHead = document.createElement("thead")
-tabelaFinal.appendChild(resultadoTabelaHead)
-//////// Cria linha do header da tabela
-var resultadoTabelaHeadRow = document.createElement("tr")
-resultadoTabelaHead.appendChild(resultadoTabelaHeadRow)
-////////// Cria conteudo da linha do header da tabela
-//////////// Cria coluna 1
-var resultadoColuna1 = document.createElement("th")
-resultadoColuna1.setAttribute("scope", "col")
-resultadoTabelaHeadRow.appendChild(resultadoColuna1)
-//////////// Cria coluna 2
-var resultadoColuna2 = document.createElement("th")
-resultadoColuna2.setAttribute("scope", "col")
-var resultadoColuna2Text = document.createTextNode("Compensação (ha)")
-resultadoColuna2.appendChild(resultadoColuna2Text)
-resultadoTabelaHeadRow.appendChild(resultadoColuna2)
-///// Cria body da tabela
-var resultadoTabelaBody = document.createElement("tbody")
-tabelaFinal.appendChild(resultadoTabelaBody)
-////// Cria a linha do resultado de cada tabela
-var resultadoTotalLinha = document.createElement("tr")
-resultadoTabelaBody.appendChild(resultadoTotalLinha)
-////// Conteudo na linha do resultado na coluna 1 
-var resultadoTotalColuna1 = document.createElement("th")
-resultadoTotalColuna1.setAttribute("scope", "row")
-var resultadoTotalColuna1Text = document.createTextNode("TOTAL")
-resultadoTotalColuna1.appendChild(resultadoTotalColuna1Text)
-resultadoTotalLinha.appendChild(resultadoTotalColuna1)
 ////// Conteudo na linha do resultado na coluna 2
-var resultadoTotalColuna2 = document.createElement("td")
-resultadoTotalColuna2.setAttribute("id", "totalFinal")
-var resultadoTotalColuna2Text = document.createTextNode("...")
-resultadoTotalColuna2.appendChild(resultadoTotalColuna2Text)
-resultadoTotalLinha.appendChild(resultadoTotalColuna2)
+var resultadoSpan = document.createElement("span")
+resultadoSpan.setAttribute("id", "totalFinal")
+var resultadoSpanText = document.createTextNode("(ha)")
+resultadoSpan.appendChild(resultadoSpanText)
+divResultadoTitulo.appendChild(resultadoSpan)
 
 
 
@@ -314,8 +306,6 @@ function calcular(){
         var elemento = listaDivs[div]
         var elementoID = listaDivs[div].attributes.id.value
         
-        console.log(elementoID)
-
         var listaInputs = elemento.querySelectorAll("input")
         for (input=0; input < listaInputs.length; input++){
             var entrada = listaInputs[input]
@@ -324,34 +314,34 @@ function calcular(){
             var multiplicador = fatores[elementoID].pesos[entrada.id].valor
             var resultado = entradaValor*multiplicador
             var elementoSaida = elemento.querySelector("td." + entradaID)
-            elementoSaida.innerHTML = resultado
+            elementoSaida.innerHTML = resultado.toFixed(2).replace(".", ",")
             somaArray.push(resultado)
         }
 
-        console.log(somaArray)
         var soma = somaArray.reduce((somaFinal, currentElement) => somaFinal + currentElement)
         var elementoResultado = elemento.querySelector("td." + elementoID)
-        elementoResultado.innerHTML = soma
+        elementoResultado.innerHTML = soma.toFixed(2).replace(".", ",")
         resultadoArray.push(soma)
 
-        console.log(soma)
     }
+
     var resultadoFinal = resultadoArray.reduce((final, current) => final + current)
     var elementoFinal = document.querySelector("#totalFinal")
-    elementoFinal.innerHTML = resultadoFinal
-    console.log(resultadoFinal)
+    elementoFinal.innerHTML = resultadoFinal.toFixed(2).replace(".", ",") + " (ha)"
 }
 
-
+// Cria a div do botão calcular
+var divBotaoCalcular = document.createElement("div")
+divBotaoCalcular.setAttribute("class", "col-lg-4 col-md-6 text-center")
+divDestino.appendChild(divBotaoCalcular)
 // Cria o botão "Calcular"
-var botaoCalcular = document.createElement("button")
-botaoCalcular.setAttribute("type", "button")
-botaoCalcular.setAttribute("id", "button")
-botaoCalcular.setAttribute("class", "btn btn-warning btn-block")
+var botaoCalcular = document.createElement("a")
+botaoCalcular.setAttribute("class", "btn btn-primary")
+botaoCalcular.setAttribute("id", "botaoCalcular")
 //// Cria o texto do botão "Calcular"
 var botaoText = document.createTextNode("Calcular")
 botaoCalcular.appendChild(botaoText)
 ////Adicionar a função ao botão
 botaoCalcular.addEventListener("click", calcular)
 //// Adicionao o botão ao "container"(div)
-divDestino.appendChild(botaoCalcular)
+divBotaoCalcular.appendChild(botaoCalcular)

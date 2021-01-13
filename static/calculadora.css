@@ -1,8 +1,17 @@
+#calculadoranexo {
+    background-color: whitesmoke;
+}
+
+#calculadoraText {
+    text-align: center;
+}
+
 .calculadora {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .calculadora .titulo {
+    width: 100%;
     padding: 10px;
     background-color: grey;
     color: white;
@@ -12,24 +21,36 @@
 
 table {
     border-radius: 5px;
-    text-align: center
+    text-align: center;
 }
 
 input {
-    width: 125px;
+    width: 100px;
     border-radius: 5px;
     text-align: end;
     
 }
 
 .resultado {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
-.resultado .titulo {
+#resultadofinaltitulo {
+    width: 100%;
     padding: 10px;
-    background-color: grey;
+    background-color: rgba(124, 165, 73, 1);
     color: white;
     border-radius: 5px;
     text-align: center
+}
+
+#botaoCalcular {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(235, 177, 51, 1);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
 }
