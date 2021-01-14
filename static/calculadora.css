@@ -10,39 +10,27 @@
     margin-top: 10px;
 }
 
-.calculadora .titulo {
-    width: 100%;
-    padding: 10px;
-    background-color: grey;
+
+#quadro {
+    width: 80%;
+    background-color: #495057;
     color: white;
     border-radius: 5px;
-    text-align: center
-}
-
-table {
-    border-radius: 5px;
     text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 input {
-    width: 100px;
+    width: 150px;
     border-radius: 5px;
     text-align: end;
     
 }
 
-.resultado {
-    margin-top: 10px;
-}
 
-#resultadofinaltitulo {
-    width: 100%;
-    padding: 10px;
-    background-color: rgba(124, 165, 73, 1);
-    color: white;
-    border-radius: 5px;
-    text-align: center
-}
+
 
 #botaoCalcular {
     margin-top: 10px;
