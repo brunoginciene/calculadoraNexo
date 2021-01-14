@@ -6,45 +6,11 @@
     text-align: center;
 }
 
-.calculadora {
-    margin-top: 10px;
-}
-
-
-#quadro {
-    width: 90%;
+.teste {
     background-color: #495057;
     color: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 15px 15px 1px 15px; 
     border-radius: 5px;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.linha{
-    margin-bottom: 15px;
-}
-
-input {
-    width: 100%;
-    border-radius: 5px;
-    text-align: end;
-    
-}
-
-.resultado {
-    background-color: lightgray;
-    
-}
-
-#botaoCalcular {
-    margin-top: 10px;
-    width: 100%;
-    padding: 10px;
-    background-color: rgba(235, 177, 51, 1);
-    color: white;
-    border-radius: 5px;
-    text-align: center;
-    cursor: pointer;
 }
