@@ -17,6 +17,10 @@
 
 .lista {
     width: 100%;
-    height: 100%;
+    height: 40px;
     border-radius: 0.25rem;
+}
+
+.botao-area {
+    width: 50px
 }
