@@ -6,11 +6,17 @@
     text-align: center;
 }
 
-.teste {
+.calculadora {
     background-color: #495057;
     color: white;
     max-width: 400px;
     margin: auto;
     padding: 15px 15px 1px 15px; 
     border-radius: 5px;
+}
+
+.lista {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.25rem;
 }
