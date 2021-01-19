@@ -4,6 +4,7 @@
 
 #calculadoraText {
     text-align: center;
+    margin-bottom: 15px!important;
 }
 
 .calculadora {
@@ -27,12 +28,19 @@
     width: 100%;
     height: 30px;
     border-radius: 0.25rem;
+    text-align: center
+}
+
+#tipoIntervencao {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .entrada {
     width: 100%;
     height: 30px;
     border-radius: 5px;
+    text-align: right;
     
 }
 
@@ -42,4 +50,11 @@
     margin-left: 0.1px;
     margin-right: 0.1px;
     border-radius: 5px;
+}
+
+#textoAsterisco {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    
 }

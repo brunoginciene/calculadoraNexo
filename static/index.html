@@ -30,14 +30,25 @@
             <br>
             <br>
             <b>
-            Faça uma simulação clicando nos botões das vegetações presentes em 
-            seu projeto e descubra sua área total para compensação ambiental:
+            Faça uma simulação selcionando o seu município abaixo e informe a área de 
+            intervenção nos tipos de vegetação:
             </b>
         </p>
 
         <div class="container calculadora">
+            <!--<div class="row align-items-center linhas">
+                <div class="col-sm">
+                    <select class="lista">
+                        <option selected>Selecione um município</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </div>-->
             <div class="row align-items-center linhas">
                 <div class="col-sm-8">
+                    <!--<h5 id="tipoIntervencao">Intervenção em:</h5>-->
                     <select class="lista">
                         <option selected>Selecione um município</option>
                         <option value="1">One</option>
@@ -54,26 +65,26 @@
             </div>
             <div class="row align-items-center linhas">
                 <div class="col-sm-8">
-                    Vegetação em Eságio Inicial
+                    Vegetação em Estágio Inicial
                 </div>
                 <div class="col-sm">
-                    <input type="number" class="entrada">
+                    <input type="number" class="entrada" placeholder="Área">
                 </div>
             </div>
             <div class="row align-items-center linhas">
                 <div class="col-sm-8">
-                    Vegetação em Eságio Médio
+                    Vegetação em Estágio Médio
                 </div>
                 <div class="col-sm">
-                    <input type="number" class="entrada">
+                    <input type="number" class="entrada" placeholder="Área">
                 </div>
             </div>
             <div class="row align-items-center linhas">
                 <div class="col-sm-8">
-                    Vegetação em Eságio Avançado
+                    Vegetação em Estágio Avançado
                 </div>
                 <div class="col-sm">
-                    <input type="number" class="entrada">
+                    <input type="number" class="entrada" placeholder="Área">
                 </div>
             </div>
             <div class="row align-items-center linhas">
@@ -81,7 +92,7 @@
                     Mangue (Floresta Paludosa)
                 </div>
                 <div class="col-sm">
-                    <input type="number" class="entrada">
+                    <input type="number" class="entrada" placeholder="Área">
                 </div>
             </div>
             <div class="row align-items-center linhas">
@@ -89,7 +100,7 @@
                     Campo Cerrado
                 </div>
                 <div class="col-sm">
-                    <input type="number" class="entrada">
+                    <input type="number" class="entrada" placeholder="Área">
                 </div>
             </div>
             <div class="row align-items-center linhas">
@@ -97,15 +108,15 @@
                     Área de Preservação Permanente (APP)
                 </div>
                 <div class="col-sm">
-                    <input type="number" class="entrada">
+                    <input type="number" class="entrada" placeholder="Área">
                 </div>
             </div>
             <div class="row align-items-center linhas">
                 <div class="col-sm-8">
-                    Árvores Isoladas Nativas
+                    Árvores Nativas Isoladas<sup>*</sup>
                 </div>
                 <div class="col-sm">
-                    <input type="number" class="entrada">
+                    <input type="number" class="entrada" placeholder="Nº de árvores">
                 </div>
             </div>
             <div class="row align-items-center linha-resultado">
@@ -117,6 +128,14 @@
                 </div>
             </div>
         </div>
+
+        <p id="textoAsterisco" class="text-muted mb-5">
+            * O número de árvores será convertido em área na proporção de
+            1.000 árvores por um hectare, conforme o disposto no parágrafo 1º, do artigo 5º,
+            da
+            <a href="https://cetesb.sp.gov.br/licenciamentoambiental/wp-content/uploads/sites/32/2019/05/Resolu%C3%A7%C3%A3o-SMA-n%C2%BA-07-2017.pdf" target="_blank">Resolução SMA nº 07/17</a>.
+            
+        </p>
 
 
         </div>
