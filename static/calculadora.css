@@ -9,12 +9,18 @@
 .calculadora {
     background-color: #495057;
     color: white;
-    max-width: 400px;
+    max-width: 460px;
     margin: auto;
     padding: 15px; 
     border-radius: 5px;
     text-align: center;
     vertical-align: middle;
+    align-items: center;
+}
+
+.linhas {
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .lista {
@@ -30,6 +36,10 @@
     
 }
 
-.botao-area {
-    width: 50px
+.linha-resultado {
+    background-color: rgba(124, 165, 73, 1);
+    padding-top: 5px;
+    margin-left: 0.1px;
+    margin-right: 0.1px;
+    border-radius: 5px;
 }
