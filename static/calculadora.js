@@ -1,4 +1,5 @@
-var baseCalculo = [
+// Base para cálculos
+const baseCalculo = [
  {
    "geocodigo": 3500105,
    "municipio": "Adamantina",
@@ -10321,11 +10322,12 @@ var baseCalculo = [
  }
 ]
 
+//Criar a lista de municípios no HTML
+const recebeItens = document.getElementById('recebeItens')
+
 for (item in baseCalculo){
-    if(baseCalculo[item].geocodigo === 3555604){
-        console.log(baseCalculo[item])
-        console.log(baseCalculo[item].municipio)
-        console.log(baseCalculo[item].app)
-    }
-    
+    let opcao = document.createElement('option')
+    opcao.setAttribute('value', baseCalculo[item].geocodigo)
+    opcao.innerHTML = baseCalculo[item].municipio
+    recebeItens.appendChild(opcao)
 }
