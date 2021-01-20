@@ -10325,9 +10325,25 @@ const baseCalculo = [
 //Criar a lista de municípios no HTML
 const recebeItens = document.getElementById('recebeItens')
 
+
 for (item in baseCalculo){
     let opcao = document.createElement('option')
     opcao.setAttribute('id', baseCalculo[item].geocodigo)
+    opcao.setAttribute('class', 'municipio')
     opcao.setAttribute('value', baseCalculo[item].municipio)
     recebeItens.appendChild(opcao)
 }
+
+//Função calcular compensação
+function compensacao(){
+    for (item in baseCalculo){
+        if (baseCalculo[item].municipio == this.value){
+            console.log(baseCalculo[item])
+        }
+}
+
+}
+
+const inputSelecao = document.getElementById('selecao')
+inputSelecao.addEventListener("change", compensacao)
+
