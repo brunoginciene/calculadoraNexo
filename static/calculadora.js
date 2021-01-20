@@ -10336,11 +10336,13 @@ for (item in baseCalculo){
 
 //Função calcular compensação
 function compensacao(){
+
+    //Pega o objeto com os fatores de compensação, conforme o município selecionado na lista HTML
     for (item in baseCalculo){
         if (baseCalculo[item].municipio == this.value){
             console.log(baseCalculo[item])
         }
-}
+    }
 
 }
 
