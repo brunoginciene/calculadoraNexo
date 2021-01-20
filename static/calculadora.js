@@ -10327,7 +10327,7 @@ const recebeItens = document.getElementById('recebeItens')
 
 for (item in baseCalculo){
     let opcao = document.createElement('option')
-    opcao.setAttribute('value', baseCalculo[item].geocodigo)
-    opcao.innerHTML = baseCalculo[item].municipio
+    opcao.setAttribute('id', baseCalculo[item].geocodigo)
+    opcao.setAttribute('value', baseCalculo[item].municipio)
     recebeItens.appendChild(opcao)
 }
