@@ -10362,25 +10362,6 @@ function compensacao(){
             document.getElementById('resultado').innerHTML = total.toFixed(2).replace(".", ",")            
         }
     }
-
-    let selectedMunicip = inputSelecao.value
-    let valor_vegEstInicial = input_vegEstInicial.value
-    let valor_vegEstMedio = input_vegEstMedio.value
-    let valor_vegEstAvancado = input_mangue.value
-    let valor_mangue = input_mangue.value
-    let valor_cerrado = document.getElementById('cerrado').value
-    let valor_app = input_app.value
-    let valor_arvoresIsoladas_ha = input_arvoresIsoladas_ha.value
-    
-    console.log(selectedMunicip)
-    console.log(valor_vegEstInicial)
-    console.log(valor_vegEstMedio)
-    console.log(valor_vegEstAvancado)
-    console.log(valor_mangue)
-    console.log(valor_cerrado)
-    console.log(valor_app)
-    console.log(valor_arvoresIsoladas_ha)
-    
 }
 
 inputSelecao.addEventListener("change", compensacao)
@@ -10391,4 +10372,9 @@ input_mangue.addEventListener("change", compensacao)
 input_cerrado.addEventListener("change", compensacao)
 input_app.addEventListener("change", compensacao)
 input_arvoresIsoladas_ha.addEventListener("change", compensacao)
+
+//Função mudar unidade (ha/m2)
+function unidade(){
+    const btn_ha = document.getElementById('ha')
+}
 
