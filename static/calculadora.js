@@ -10344,6 +10344,21 @@ const input_arvoresIsoladas_ha = document.getElementById('arvoresIsoladas_ha')
 
 //Função calcular compensação
 function compensacao(){
+    let soma = []
+    for (i in baseCalculo){
+        if (baseCalculo[i].municipio === inputSelecao.value){
+            soma.push(baseCalculo[i].vegEstInicial * input_vegEstInicial.value)
+            soma.push(baseCalculo[i].vegEstMedio * input_vegEstMedio.value)
+            soma.push(baseCalculo[i].vegEstAvancado * vegEstAvancado.value)
+            soma.push(baseCalculo[i].mangue * input_mangue.value)
+            soma.push(baseCalculo[i].cerrado * input_cerrado.value)
+            soma.push(baseCalculo[i].app * input_app.value)
+            soma.push(baseCalculo[i].arvoresIsoladas_ha * input_arvoresIsoladas_ha.value)
+            console.log(soma)
+            
+        }
+    }
+
     let selectedMunicip = inputSelecao.value
     let valor_vegEstInicial = input_vegEstInicial.value
     let valor_vegEstMedio = input_vegEstMedio.value
