@@ -10324,8 +10324,6 @@ const baseCalculo = [
 
 //Criar a lista de municípios no HTML
 const recebeItens = document.getElementById('recebeItens')
-
-
 for (item in baseCalculo){
     let opcao = document.createElement('option')
     opcao.setAttribute('id', baseCalculo[item].geocodigo)
@@ -10334,12 +10332,44 @@ for (item in baseCalculo){
     recebeItens.appendChild(opcao)
 }
 
+//Pega os elementos interativos da calculadora (seleção e inputs)
+const inputSelecao = document.getElementById('selecao')
+const input_vegEstInicial = document.getElementById('vegEstInicial')
+const input_vegEstMedio = document.getElementById('vegEstMedio')
+const input_vegEstAvancado = document.getElementById('vegEstAvancado')
+const input_mangue = document.getElementById('mangue')
+const input_cerrado = document.getElementById('cerrado')
+const input_app = document.getElementById('app')
+const input_arvoresIsoladas_ha = document.getElementById('arvoresIsoladas_ha')
+
 //Função calcular compensação
 function compensacao(){
-    let selectedMunicip = document.getElementById('selecao').value
+    let selectedMunicip = inputSelecao.value
+    let valor_vegEstInicial = input_vegEstInicial.value
+    let valor_vegEstMedio = input_vegEstMedio.value
+    let valor_vegEstAvancado = input_mangue.value
+    let valor_mangue = input_mangue.value
+    let valor_cerrado = document.getElementById('cerrado').value
+    let valor_app = input_app.value
+    let valor_arvoresIsoladas_ha = input_arvoresIsoladas_ha.value
+    
     console.log(selectedMunicip)
+    console.log(valor_vegEstInicial)
+    console.log(valor_vegEstMedio)
+    console.log(valor_vegEstAvancado)
+    console.log(valor_mangue)
+    console.log(valor_cerrado)
+    console.log(valor_app)
+    console.log(valor_arvoresIsoladas_ha)
+    
 }
 
-const inputSelecao = document.getElementById('selecao')
 inputSelecao.addEventListener("change", compensacao)
+input_vegEstInicial.addEventListener("change", compensacao)
+input_vegEstMedio.addEventListener("change", compensacao)
+input_vegEstAvancado.addEventListener("change", compensacao)
+input_mangue.addEventListener("change", compensacao)
+input_cerrado.addEventListener("change", compensacao)
+input_app.addEventListener("change", compensacao)
+input_arvoresIsoladas_ha.addEventListener("change", compensacao)
 
