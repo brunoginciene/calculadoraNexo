@@ -10354,8 +10354,12 @@ function compensacao(){
             soma.push(baseCalculo[i].cerrado * input_cerrado.value)
             soma.push(baseCalculo[i].app * input_app.value)
             soma.push(baseCalculo[i].arvoresIsoladas_ha * input_arvoresIsoladas_ha.value)
-            console.log(soma)
             
+            let total = 0
+            for ( var i = 0; i < soma.length; i++ ){
+                total += soma[i];
+            }
+            document.getElementById('resultado').innerHTML = total.toFixed(2).replace(".", ",")            
         }
     }
 
