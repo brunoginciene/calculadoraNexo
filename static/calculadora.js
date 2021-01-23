@@ -14,6 +14,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -30,6 +31,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -46,6 +48,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -62,6 +65,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.4
  },
  {
@@ -78,6 +82,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -94,6 +99,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -110,6 +116,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -126,6 +133,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -142,6 +150,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -158,6 +167,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -174,6 +184,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -190,6 +201,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -206,6 +218,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -222,6 +235,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -238,6 +252,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -254,6 +269,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -270,6 +286,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -286,6 +303,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -302,6 +320,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -318,6 +337,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -334,6 +354,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -350,6 +371,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -366,6 +388,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -382,6 +405,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -398,6 +422,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -414,6 +439,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -430,6 +456,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -446,6 +473,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -462,6 +490,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.6
  },
  {
@@ -478,6 +507,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -494,6 +524,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -510,6 +541,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -526,6 +558,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -542,6 +575,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.6
  },
  {
@@ -558,6 +592,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -574,6 +609,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -590,6 +626,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -606,6 +643,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -622,6 +660,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -638,6 +677,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -654,6 +694,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -670,6 +711,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -686,6 +728,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -702,6 +745,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -718,6 +762,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -734,6 +779,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -750,6 +796,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -766,6 +813,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -782,6 +830,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -798,6 +847,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -814,6 +864,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -830,6 +881,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -846,6 +898,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -862,6 +915,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -878,6 +932,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -894,6 +949,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -910,6 +966,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -926,6 +983,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -942,6 +1000,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -958,6 +1017,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -974,6 +1034,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.4
  },
  {
@@ -990,6 +1051,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -1006,6 +1068,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -1022,6 +1085,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -1038,6 +1102,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -1054,6 +1119,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -1070,6 +1136,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -1086,6 +1153,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -1102,6 +1170,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -1118,6 +1187,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -1134,6 +1204,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -1150,6 +1221,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -1166,6 +1238,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -1182,6 +1255,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -1198,6 +1272,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -1214,6 +1289,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -1230,6 +1306,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -1246,6 +1323,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -1262,6 +1340,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -1278,6 +1357,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -1294,6 +1374,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.4
  },
  {
@@ -1310,6 +1391,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -1326,6 +1408,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -1342,6 +1425,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -1358,6 +1442,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -1374,6 +1459,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -1390,6 +1476,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -1406,6 +1493,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -1422,6 +1510,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -1438,6 +1527,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -1454,6 +1544,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -1470,6 +1561,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.4
  },
  {
@@ -1486,6 +1578,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -1502,6 +1595,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -1518,6 +1612,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -1534,6 +1629,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -1550,6 +1646,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -1566,6 +1663,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -1582,6 +1680,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -1598,6 +1697,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -1614,6 +1714,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -1630,6 +1731,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -1646,6 +1748,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.6
  },
  {
@@ -1662,6 +1765,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -1678,6 +1782,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -1694,6 +1799,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -1710,6 +1816,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.4
  },
  {
@@ -1726,6 +1833,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -1742,6 +1850,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -1758,6 +1867,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -1774,6 +1884,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.4
  },
  {
@@ -1790,6 +1901,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -1806,6 +1918,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -1822,6 +1935,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 2
  },
  {
@@ -1838,6 +1952,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -1854,6 +1969,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -1870,6 +1986,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -1886,6 +2003,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -1902,6 +2020,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -1918,6 +2037,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -1934,6 +2054,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -1950,6 +2071,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -1966,6 +2088,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -1982,6 +2105,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -1998,6 +2122,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -2014,6 +2139,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -2030,6 +2156,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -2046,6 +2173,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -2062,6 +2190,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -2078,6 +2207,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -2094,6 +2224,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -2110,6 +2241,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -2126,6 +2258,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -2142,6 +2275,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -2158,6 +2292,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -2174,6 +2309,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -2190,6 +2326,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -2206,6 +2343,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -2222,6 +2360,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -2238,6 +2377,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 2
  },
  {
@@ -2254,6 +2394,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -2270,6 +2411,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -2286,6 +2428,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -2302,6 +2445,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -2318,6 +2462,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -2334,6 +2479,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -2350,6 +2496,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -2366,6 +2513,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -2382,6 +2530,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -2398,6 +2547,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -2414,6 +2564,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -2430,6 +2581,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -2446,6 +2598,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -2462,6 +2615,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -2478,6 +2632,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -2494,6 +2649,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -2510,6 +2666,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -2526,6 +2683,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -2542,6 +2700,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -2558,6 +2717,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -2574,6 +2734,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -2590,6 +2751,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -2606,6 +2768,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -2622,6 +2785,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -2638,6 +2802,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -2654,6 +2819,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -2670,6 +2836,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -2686,6 +2853,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -2702,6 +2870,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -2718,6 +2887,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -2734,6 +2904,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -2750,6 +2921,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -2766,6 +2938,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -2782,6 +2955,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -2798,6 +2972,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -2814,6 +2989,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -2830,6 +3006,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -2846,6 +3023,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -2862,6 +3040,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -2878,6 +3057,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -2894,6 +3074,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -2910,6 +3091,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -2926,6 +3108,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -2942,6 +3125,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.6
  },
  {
@@ -2958,6 +3142,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -2974,6 +3159,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -2990,6 +3176,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -3006,6 +3193,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -3022,6 +3210,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -3038,6 +3227,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -3054,6 +3244,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -3070,6 +3261,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -3086,6 +3278,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3102,6 +3295,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3118,6 +3312,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -3134,6 +3329,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3150,6 +3346,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -3166,6 +3363,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -3182,6 +3380,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -3198,6 +3397,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3214,6 +3414,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -3230,6 +3431,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3246,6 +3448,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -3262,6 +3465,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -3278,6 +3482,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3294,6 +3499,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3310,6 +3516,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3326,6 +3533,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -3342,6 +3550,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3358,6 +3567,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -3374,6 +3584,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -3390,6 +3601,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -3406,6 +3618,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -3422,6 +3635,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -3438,6 +3652,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -3454,6 +3669,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -3470,6 +3686,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3486,6 +3703,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -3502,6 +3720,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -3518,6 +3737,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 2
  },
  {
@@ -3534,6 +3754,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -3550,6 +3771,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -3566,6 +3788,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3582,6 +3805,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -3598,6 +3822,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -3614,6 +3839,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -3630,6 +3856,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -3646,6 +3873,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -3662,6 +3890,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3678,6 +3907,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3694,6 +3924,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.6
  },
  {
@@ -3710,6 +3941,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -3726,6 +3958,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -3742,6 +3975,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -3758,6 +3992,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -3774,6 +4009,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -3790,6 +4026,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -3806,6 +4043,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -3822,6 +4060,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3838,6 +4077,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3854,6 +4094,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3870,6 +4111,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3886,6 +4128,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -3902,6 +4145,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -3918,6 +4162,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3934,6 +4179,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -3950,6 +4196,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -3966,6 +4213,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -3982,6 +4230,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -3998,6 +4247,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -4014,6 +4264,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -4030,6 +4281,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -4046,6 +4298,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -4062,6 +4315,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -4078,6 +4332,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -4094,6 +4349,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -4110,6 +4366,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -4126,6 +4383,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -4142,6 +4400,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -4158,6 +4417,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -4174,6 +4434,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -4190,6 +4451,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.4
  },
  {
@@ -4206,6 +4468,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -4222,6 +4485,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -4238,6 +4502,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -4254,6 +4519,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -4270,6 +4536,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -4286,6 +4553,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -4302,6 +4570,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -4318,6 +4587,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -4334,6 +4604,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -4350,6 +4621,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -4366,6 +4638,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -4382,6 +4655,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -4398,6 +4672,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -4414,6 +4689,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -4430,6 +4706,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -4446,6 +4723,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -4462,6 +4740,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -4478,6 +4757,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -4494,6 +4774,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -4510,6 +4791,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -4526,6 +4808,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -4542,6 +4825,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -4558,6 +4842,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -4574,6 +4859,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -4590,6 +4876,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -4606,6 +4893,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -4622,6 +4910,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -4638,6 +4927,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -4654,6 +4944,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -4670,6 +4961,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -4686,6 +4978,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -4702,6 +4995,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -4718,6 +5012,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -4734,6 +5029,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -4750,6 +5046,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -4766,6 +5063,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -4782,6 +5080,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -4798,6 +5097,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -4814,6 +5114,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -4830,6 +5131,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -4846,6 +5148,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -4862,6 +5165,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -4878,6 +5182,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -4894,6 +5199,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -4910,6 +5216,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.4
  },
  {
@@ -4926,6 +5233,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -4942,6 +5250,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -4958,6 +5267,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -4974,6 +5284,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -4990,6 +5301,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -5006,6 +5318,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5022,6 +5335,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -5038,6 +5352,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -5054,6 +5369,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -5070,6 +5386,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5086,6 +5403,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -5102,6 +5420,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5118,6 +5437,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5134,6 +5454,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -5150,6 +5471,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -5166,6 +5488,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -5182,6 +5505,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -5198,6 +5522,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -5214,6 +5539,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -5230,6 +5556,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -5246,6 +5573,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -5262,6 +5590,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5278,6 +5607,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.6
  },
  {
@@ -5294,6 +5624,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5310,6 +5641,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -5326,6 +5658,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -5342,6 +5675,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5358,6 +5692,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5374,6 +5709,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -5390,6 +5726,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -5406,6 +5743,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -5422,6 +5760,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5438,6 +5777,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -5454,6 +5794,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5470,6 +5811,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -5486,6 +5828,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5502,6 +5845,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5518,6 +5862,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5534,6 +5879,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -5550,6 +5896,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -5566,6 +5913,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.6
  },
  {
@@ -5582,6 +5930,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -5598,6 +5947,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5614,6 +5964,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -5630,6 +5981,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -5646,6 +5998,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5662,6 +6015,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5678,6 +6032,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -5694,6 +6049,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -5710,6 +6066,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -5726,6 +6083,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.4
  },
  {
@@ -5742,6 +6100,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -5758,6 +6117,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -5774,6 +6134,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -5790,6 +6151,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5806,6 +6168,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -5822,6 +6185,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -5838,6 +6202,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -5854,6 +6219,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -5870,6 +6236,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5886,6 +6253,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5902,6 +6270,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5918,6 +6287,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5934,6 +6304,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.4
  },
  {
@@ -5950,6 +6321,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.6
  },
  {
@@ -5966,6 +6338,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -5982,6 +6355,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -5998,6 +6372,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6014,6 +6389,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -6030,6 +6406,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -6046,6 +6423,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6062,6 +6440,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -6078,6 +6457,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6094,6 +6474,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6110,6 +6491,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6126,6 +6508,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -6142,6 +6525,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6158,6 +6542,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6174,6 +6559,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6190,6 +6576,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6206,6 +6593,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6222,6 +6610,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6238,6 +6627,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 2
  },
  {
@@ -6254,6 +6644,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6270,6 +6661,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6286,6 +6678,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -6302,6 +6695,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.6
  },
  {
@@ -6318,6 +6712,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6334,6 +6729,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -6350,6 +6746,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6366,6 +6763,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6382,6 +6780,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -6398,6 +6797,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -6414,6 +6814,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.6
  },
  {
@@ -6430,6 +6831,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6446,6 +6848,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -6462,6 +6865,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6478,6 +6882,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -6494,6 +6899,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -6510,6 +6916,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -6526,6 +6933,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -6542,6 +6950,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.4
  },
  {
@@ -6558,6 +6967,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -6574,6 +6984,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -6590,6 +7001,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -6606,6 +7018,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -6622,6 +7035,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6638,6 +7052,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6654,6 +7069,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -6670,6 +7086,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -6686,6 +7103,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6702,6 +7120,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -6718,6 +7137,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -6734,6 +7154,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -6750,6 +7171,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -6766,6 +7188,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -6782,6 +7205,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -6798,6 +7222,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -6814,6 +7239,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -6830,6 +7256,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -6846,6 +7273,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -6862,6 +7290,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -6878,6 +7307,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -6894,6 +7324,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -6910,6 +7341,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -6926,6 +7358,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -6942,6 +7375,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -6958,6 +7392,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -6974,6 +7409,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -6990,6 +7426,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7006,6 +7443,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -7022,6 +7460,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -7038,6 +7477,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -7054,6 +7494,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -7070,6 +7511,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -7086,6 +7528,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -7102,6 +7545,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -7118,6 +7562,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7134,6 +7579,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7150,6 +7596,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -7166,6 +7613,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7182,6 +7630,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7198,6 +7647,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -7214,6 +7664,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -7230,6 +7681,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7246,6 +7698,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7262,6 +7715,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7278,6 +7732,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -7294,6 +7749,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -7310,6 +7766,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -7326,6 +7783,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 2
  },
  {
@@ -7342,6 +7800,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -7358,6 +7817,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -7374,6 +7834,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -7390,6 +7851,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -7406,6 +7868,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7422,6 +7885,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -7438,6 +7902,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -7454,6 +7919,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.6
  },
  {
@@ -7470,6 +7936,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7486,6 +7953,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -7502,6 +7970,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7518,6 +7987,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -7534,6 +8004,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7550,6 +8021,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -7566,6 +8038,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -7582,6 +8055,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7598,6 +8072,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -7614,6 +8089,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7630,6 +8106,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -7646,6 +8123,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -7662,6 +8140,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -7678,6 +8157,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -7694,6 +8174,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7710,6 +8191,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.4
  },
  {
@@ -7726,6 +8208,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -7742,6 +8225,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.4
  },
  {
@@ -7758,6 +8242,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7774,6 +8259,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -7790,6 +8276,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.6
  },
  {
@@ -7806,6 +8293,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -7822,6 +8310,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -7838,6 +8327,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -7854,6 +8344,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -7870,6 +8361,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 2
  },
  {
@@ -7886,6 +8378,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -7902,6 +8395,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.6
  },
  {
@@ -7918,6 +8412,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -7934,6 +8429,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -7950,6 +8446,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7966,6 +8463,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -7982,6 +8480,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -7998,6 +8497,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -8014,6 +8514,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -8030,6 +8531,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.6
  },
  {
@@ -8046,6 +8548,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -8062,6 +8565,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -8078,6 +8582,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -8094,6 +8599,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -8110,6 +8616,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -8126,6 +8633,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -8142,6 +8650,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -8158,6 +8667,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -8174,6 +8684,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -8190,6 +8701,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -8206,6 +8718,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -8222,6 +8735,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -8238,6 +8752,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -8254,6 +8769,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 2
  },
  {
@@ -8270,6 +8786,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -8286,6 +8803,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -8302,6 +8820,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -8318,6 +8837,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -8334,6 +8854,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -8350,6 +8871,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -8366,6 +8888,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -8382,6 +8905,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -8398,6 +8922,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 2
  },
  {
@@ -8414,6 +8939,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -8430,6 +8956,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -8446,6 +8973,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -8462,6 +8990,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -8478,6 +9007,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -8494,6 +9024,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -8510,6 +9041,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -8526,6 +9058,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -8542,6 +9075,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.6
  },
  {
@@ -8558,6 +9092,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -8574,6 +9109,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -8590,6 +9126,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -8606,6 +9143,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -8622,6 +9160,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -8638,6 +9177,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -8654,6 +9194,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -8670,6 +9211,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -8686,6 +9228,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -8702,6 +9245,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 2
  },
  {
@@ -8718,6 +9262,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -8734,6 +9279,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -8750,6 +9296,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -8766,6 +9313,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 2
  },
  {
@@ -8782,6 +9330,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -8798,6 +9347,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -8814,6 +9364,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -8830,6 +9381,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -8846,6 +9398,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -8862,6 +9415,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -8878,6 +9432,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -8894,6 +9449,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -8910,6 +9466,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.4
  },
  {
@@ -8926,6 +9483,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -8942,6 +9500,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -8958,6 +9517,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -8974,6 +9534,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -8990,6 +9551,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -9006,6 +9568,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -9022,6 +9585,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -9038,6 +9602,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -9054,6 +9619,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -9070,6 +9636,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -9086,6 +9653,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -9102,6 +9670,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -9118,6 +9687,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -9134,6 +9704,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -9150,6 +9721,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -9166,6 +9738,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -9182,6 +9755,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -9198,6 +9772,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -9214,6 +9789,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -9230,6 +9806,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.4
  },
  {
@@ -9246,6 +9823,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -9262,6 +9840,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -9278,6 +9857,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -9294,6 +9874,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -9310,6 +9891,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -9326,6 +9908,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -9342,6 +9925,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -9358,6 +9942,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -9374,6 +9959,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 2
  },
  {
@@ -9390,6 +9976,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -9406,6 +9993,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -9422,6 +10010,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -9438,6 +10027,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -9454,6 +10044,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -9470,6 +10061,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -9486,6 +10078,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -9502,6 +10095,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -9518,6 +10112,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -9534,6 +10129,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -9550,6 +10146,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -9566,6 +10163,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -9582,6 +10180,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -9598,6 +10197,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -9614,6 +10214,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -9630,6 +10231,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -9646,6 +10248,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -9662,6 +10265,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -9678,6 +10282,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -9694,6 +10299,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -9710,6 +10316,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -9726,6 +10333,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.2
  },
  {
@@ -9742,6 +10350,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -9758,6 +10367,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -9774,6 +10384,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -9790,6 +10401,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.4
  },
  {
@@ -9806,6 +10418,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -9822,6 +10435,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.6
  },
  {
@@ -9838,6 +10452,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -9854,6 +10469,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -9870,6 +10486,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.6
  },
  {
@@ -9886,6 +10503,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -9902,6 +10520,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -9918,6 +10537,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -9934,6 +10554,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -9950,6 +10571,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -9966,6 +10588,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -9982,6 +10605,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.2
  },
  {
@@ -9998,6 +10622,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -10014,6 +10639,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -10030,6 +10656,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -10046,6 +10673,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -10062,6 +10690,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -10078,6 +10707,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.2
  },
  {
@@ -10094,6 +10724,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -10110,6 +10741,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -10126,6 +10758,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -10142,6 +10775,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -10158,6 +10792,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -10174,6 +10809,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -10190,6 +10826,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 2
  },
  {
@@ -10206,6 +10843,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -10222,6 +10860,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 2
  },
  {
@@ -10238,6 +10877,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -10254,6 +10894,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -10270,6 +10911,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  },
  {
@@ -10286,6 +10928,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 10,
    "arvoresIsoladas_ha": 0.01,
+   "arvoresIsoladas_m2": 100,
    "app": 1.6
  },
  {
@@ -10302,6 +10945,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 15,
    "arvoresIsoladas_ha": 0.015,
+   "arvoresIsoladas_m2": 150,
    "app": 1.4
  },
  {
@@ -10318,6 +10962,7 @@ const baseCalculo = [
    "cerrado": 3,
    "arvoresIsoladas": 25,
    "arvoresIsoladas_ha": 0.025,
+   "arvoresIsoladas_m2": 250,
    "app": 1.4
  }
 ]
@@ -10332,7 +10977,7 @@ for (item in baseCalculo){
     recebeItens.appendChild(opcao)
 }
 
-//Pega os elementos interativos da calculadora (seleção e inputs)
+//Pega os elementos interativos da calculadora (seleção, inputs e btns)
 const inputSelecao = document.getElementById('selecao')
 const input_vegEstInicial = document.getElementById('vegEstInicial')
 const input_vegEstMedio = document.getElementById('vegEstMedio')
@@ -10340,7 +10985,9 @@ const input_vegEstAvancado = document.getElementById('vegEstAvancado')
 const input_mangue = document.getElementById('mangue')
 const input_cerrado = document.getElementById('cerrado')
 const input_app = document.getElementById('app')
-const input_arvoresIsoladas_ha = document.getElementById('arvoresIsoladas_ha')
+const input_arvoresIsoladas = document.getElementById('arvoresIsoladas')
+const btn_ha = document.getElementById('ha')
+const btn_m2 = document.getElementById('m2')
 
 //Função calcular compensação
 function compensacao(){
@@ -10349,17 +10996,36 @@ function compensacao(){
         if (baseCalculo[i].municipio === inputSelecao.value){
             soma.push(baseCalculo[i].vegEstInicial * input_vegEstInicial.value)
             soma.push(baseCalculo[i].vegEstMedio * input_vegEstMedio.value)
-            soma.push(baseCalculo[i].vegEstAvancado * vegEstAvancado.value)
+            soma.push(baseCalculo[i].vegEstAvancado * input_vegEstAvancado.value)
             soma.push(baseCalculo[i].mangue * input_mangue.value)
             soma.push(baseCalculo[i].cerrado * input_cerrado.value)
             soma.push(baseCalculo[i].app * input_app.value)
-            soma.push(baseCalculo[i].arvoresIsoladas_ha * input_arvoresIsoladas_ha.value)
+            if (btn_m2.checked){
+                soma.push(baseCalculo[i].arvoresIsoladas_m2 * input_arvoresIsoladas.value)
+            }
+            if(btn_ha.checked){
+                soma.push(baseCalculo[i].arvoresIsoladas_ha * input_arvoresIsoladas.value)
+            }
             
             let total = 0
             for ( var i = 0; i < soma.length; i++ ){
                 total += soma[i];
             }
-            document.getElementById('resultado').innerHTML = total.toFixed(2).replace(".", ",")            
+
+            if (btn_m2.checked){
+                const str = "2"
+                document.getElementById('resultado').innerHTML = total
+                .toFixed(2)
+                .replace(".", ",")
+                .replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.') + " m" + str.sup() 
+            }
+            if(btn_ha.checked){
+                document.getElementById('resultado').innerHTML = total
+                .toFixed(2)
+                .replace(".", ",")
+                .replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.') + " ha"
+            }
+                        
         }
     }
 }
@@ -10371,10 +11037,29 @@ input_vegEstAvancado.addEventListener("change", compensacao)
 input_mangue.addEventListener("change", compensacao)
 input_cerrado.addEventListener("change", compensacao)
 input_app.addEventListener("change", compensacao)
-input_arvoresIsoladas_ha.addEventListener("change", compensacao)
+input_arvoresIsoladas.addEventListener("change", compensacao)
 
 //Função mudar unidade (ha/m2)
 function unidade(){
-    const btn_ha = document.getElementById('ha')
+    if (btn_m2.checked){
+        input_vegEstInicial.value = input_vegEstInicial.value * 10000
+        input_vegEstMedio.value = input_vegEstMedio.value * 10000
+        input_vegEstAvancado.value = input_vegEstAvancado.value * 10000
+        input_mangue.value = input_mangue.value * 10000
+        input_cerrado.value = input_cerrado.value * 10000
+        input_app.value = input_app.value * 10000
+        compensacao()
+    } 
+    if(btn_ha.checked){
+        input_vegEstInicial.value = input_vegEstInicial.value / 10000
+        input_vegEstMedio.value = input_vegEstMedio.value / 10000
+        input_vegEstAvancado.value = input_vegEstAvancado.value / 10000
+        input_mangue.value = input_mangue.value / 10000
+        input_cerrado.value = input_cerrado.value / 10000
+        input_app.value = input_app.value / 10000
+        compensacao()
+    }
 }
 
+btn_ha.addEventListener("change", unidade)
+btn_m2.addEventListener("change", unidade)
