@@ -10992,7 +10992,7 @@ const btn_m2 = document.getElementById('m2')
 //Função calcular compensação
 function compensacao(){
     const str = "2"
-    const muda = "***"
+    const muda = "3"
     let soma = []
     for (i in baseCalculo){
         if (baseCalculo[i].municipio === inputSelecao.value){
@@ -11024,7 +11024,7 @@ function compensacao(){
                 document.getElementById('resultadoMudas').innerHTML = totalMudas
                 .toFixed(0)
                 .replace(".", ",")
-                .replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.') + " mudas" + muda.sup()
+                .replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.') + " mudas " + muda.sup()
             }
             if(btn_ha.checked){
                 document.getElementById('resultado').innerHTML = total
@@ -11036,7 +11036,7 @@ function compensacao(){
                 document.getElementById('resultadoMudas').innerHTML = totalMudas
                 .toFixed(0)
                 .replace(".", ",")
-                .replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.') + " mudas" + muda.sup()
+                .replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.') + " mudas " + muda.sup()
             }
                         
         }
