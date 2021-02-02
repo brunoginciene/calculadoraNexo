@@ -95,7 +95,7 @@
             </div>
             <div class="row align-items-center linhas">
                 <div class="col-sm-8">
-                    Área de Preservação Permanente (APP)
+                    Área de Preservação Permanente (APP) <sup>a</sup>
                 </div>
                 <div class="col-sm">
                     <input type="number" class="entrada" placeholder="Área" id="app">
@@ -103,15 +103,15 @@
             </div>
             <div class="row align-items-center linhas">
                 <div class="col-sm-8">
-                    Árvores Nativas Isoladas <sup>1</sup>
+                    Árvores Nativas Isoladas <sup>b</sup>
                 </div>
                 <div class="col-sm">
-                    <input type="number" class="entrada" placeholder="Nº de árvores" id="arvoresIsoladas">
+                    <input type="number" min="0" step="1" class="entrada" placeholder="Nº de árvores" id="arvoresIsoladas">
                 </div>
             </div>
             <div class="row align-items-center linha-resultado">
                 <div class="col-sm-8">
-                    <h6>TOTAL PARA COMPENSAÇÃO <sup>2</sup><h6>
+                    <h6>TOTAL PARA COMPENSAÇÃO <sup>c</sup><h6>
                 </div>
                 <div class="col-sm">
                     <h6 id="resultado">...</h6>
@@ -126,18 +126,18 @@
         </div>
 
         <p id="textoAsterisco" class="text-muted mb-5">
-            <sup>1</sup> O número de árvores será convertido em área na proporção de
+            <sup>b</sup> O número de árvores será convertido em área na proporção de
             1.000 árvores por um hectare, conforme o disposto no parágrafo 1º, do artigo 5º,
             da
             <a href="https://cetesb.sp.gov.br/licenciamentoambiental/wp-content/uploads/sites/32/2019/05/Resolu%C3%A7%C3%A3o-SMA-n%C2%BA-07-2017.pdf" target="_blank">Resolução SMA nº 07/17</a>.
             <br>
             <br>
-            <sup>2</sup> Este resultado consiste em uma estimativa, pois depende da verificação de informações 
+            <sup>c</sup> Este resultado consiste em uma estimativa, pois depende da verificação de informações 
             em campo. Espécies identificadas como ameaçadas, por exemplo, poderão ter um fator de compensação 
             maior, alterando os resultados. Para saber mais sobre a sua situção entre em contato conosco.
             <br>
             <br>
-            <sup>3</sup> O total de mudas para a compensação será calculado considerando plantios totais, com 
+            <sup>d</sup> O total de mudas para a compensação será calculado considerando plantios totais, com 
             espaçamentos de 3x2. Para outros tipos de compensação consulte os nossos serviços. 
         </p>
 

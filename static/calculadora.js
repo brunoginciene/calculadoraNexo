@@ -10992,8 +10992,9 @@ const btn_m2 = document.getElementById('m2')
 //Função calcular compensação
 function compensacao(){
     const str = "2"
-    const muda = "3"
+    const strMuda = "d"
     let soma = []
+    let mudas = []
     for (i in baseCalculo){
         if (baseCalculo[i].municipio === inputSelecao.value){
             soma.push(baseCalculo[i].vegEstInicial * input_vegEstInicial.value)
@@ -11008,10 +11009,10 @@ function compensacao(){
             if(btn_ha.checked){
                 soma.push(baseCalculo[i].arvoresIsoladas_ha * input_arvoresIsoladas.value)
             }
-            
+
             let total = 0
-            for ( var i = 0; i < soma.length; i++ ){
-                total += soma[i];
+            for ( var x = 0; x < soma.length; x++ ){
+                total += soma[x];
             }
 
             if (btn_m2.checked){
@@ -11019,26 +11020,39 @@ function compensacao(){
                 .toFixed(2)
                 .replace(".", ",")
                 .replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.') + " m" + str.sup()
-
-                let totalMudas = total * 0.1667
-                document.getElementById('resultadoMudas').innerHTML = totalMudas
-                .toFixed(0)
-                .replace(".", ",")
-                .replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.') + " mudas " + muda.sup()
             }
             if(btn_ha.checked){
                 document.getElementById('resultado').innerHTML = total
                 .toFixed(2)
                 .replace(".", ",")
                 .replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.') + " ha"
+            }
 
-                let totalMudas = total * 1667
-                document.getElementById('resultadoMudas').innerHTML = totalMudas
+            //Calcular mudas
+            mudas.push(baseCalculo[i].vegEstInicial * input_vegEstInicial.value)
+            mudas.push(baseCalculo[i].vegEstMedio * input_vegEstMedio.value)
+            mudas.push(baseCalculo[i].vegEstAvancado * input_vegEstAvancado.value)
+            mudas.push(baseCalculo[i].mangue * input_mangue.value)
+            mudas.push(baseCalculo[i].cerrado * input_cerrado.value)
+            mudas.push(baseCalculo[i].app * input_app.value)
+            let mudasParcial = 0
+            for ( var m = 0; m < mudas.length; m++ ){
+                mudasParcial += mudas[m];
+            }
+            if (btn_m2.checked){
+                let mudasTotal = (mudasParcial * 0.1667) + (input_arvoresIsoladas.value * baseCalculo[i].arvoresIsoladas)
+                document.getElementById('resultadoMudas').innerHTML = mudasTotal
                 .toFixed(0)
                 .replace(".", ",")
-                .replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.') + " mudas " + muda.sup()
+                .replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.') + " mudas " + strMuda.sup()
             }
-                        
+            if (btn_ha.checked){
+                let mudasTotal = (mudasParcial * 1667) + (input_arvoresIsoladas.value * baseCalculo[i].arvoresIsoladas)
+                document.getElementById('resultadoMudas').innerHTML = mudasTotal
+                .toFixed(0)
+                .replace(".", ",")
+                .replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.') + " mudas " + strMuda.sup()
+            }           
         }
     }
 }
