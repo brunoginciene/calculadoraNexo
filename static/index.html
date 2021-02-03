@@ -109,15 +109,15 @@
                     <input type="number" min="0" step="1" class="entrada" placeholder="Nº de árvores" id="arvoresIsoladas">
                 </div>
             </div>
-            <div class="row align-items-center linha-resultado">
-                <div class="col-sm-8">
+            <div class="row align-items-center linha-resultado ">
+                <div class="col-sm-7">
                     <h6>TOTAL PARA COMPENSAÇÃO <sup>c</sup><h6>
                 </div>
                 <div class="col-sm">
-                    <div class="row align-items-center">
-                        <h6 id="resultado">...</h6>
+                    <div class="row align-items-center texto-resultado">
+                        <h6 id="resultado"></h6>
                     </div>
-                    <div class="row align-items-center">
+                    <div class="row align-items-center texto-resultado">
                         <h6 id="resultadoMudas"></h6>
                     </div>
                 </div>
@@ -125,6 +125,11 @@
         </div>
 
         <p id="textoAsterisco" class="text-muted mb-5">
+            <sup>a</sup> Para o cálculo serão consideradas apenas as Áreas de Preservação Permanente - APP 
+            desprovidas de vegetação, recobertas por vegetação pioneira ou exótica ou que envolvam o corte 
+            de árvores nativas isoladas.
+            <br>
+            <br>
             <sup>b</sup> O número de árvores será convertido em área na proporção de
             1.000 árvores por um hectare, conforme o disposto no parágrafo 1º, do artigo 5º,
             da

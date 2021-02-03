@@ -10,7 +10,7 @@
 .calculadora {
     background-color: #495057;
     color: white;
-    max-width: 520px;
+    max-width: 480px;
     margin: auto;
     padding: 15px; 
     border-radius: 5px;
@@ -50,6 +50,11 @@
     margin-left: 0.1px;
     margin-right: 0.1px;
     border-radius: 5px;
+}
+
+.texto-resultado{
+    text-align: end;
+
 }
 
 #textoAsterisco {
