@@ -11041,17 +11041,27 @@ function compensacao(){
             }
             if (btn_m2.checked){
                 let mudasTotal = (mudasParcial * 0.1667) + (input_arvoresIsoladas.value * baseCalculo[i].arvoresIsoladas)
-                document.getElementById('resultadoMudas').innerHTML = mudasTotal
-                .toFixed(0)
-                .replace(".", ",")
-                .replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.') + " mudas " + strMuda.sup()
+                console.log(mudasTotal)
+                if(mudasTotal > 0 && mudasTotal < 1.5){
+                    document.getElementById('resultadoMudas').innerHTML = "1 muda " + strMuda.sup()
+                } else{
+                    document.getElementById('resultadoMudas').innerHTML = mudasTotal
+                    .toFixed(0)
+                    .replace(".", ",")
+                    .replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.') + " mudas " + strMuda.sup()
+                }
+                
             }
             if (btn_ha.checked){
                 let mudasTotal = (mudasParcial * 1667) + (input_arvoresIsoladas.value * baseCalculo[i].arvoresIsoladas)
-                document.getElementById('resultadoMudas').innerHTML = mudasTotal
-                .toFixed(0)
-                .replace(".", ",")
-                .replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.') + " mudas " + strMuda.sup()
+                if(mudasTotal > 0 && mudasTotal < 1.5){
+                    document.getElementById('resultadoMudas').innerHTML = "1 muda " + strMuda.sup()
+                } else{
+                    document.getElementById('resultadoMudas').innerHTML = mudasTotal
+                    .toFixed(0)
+                    .replace(".", ",")
+                    .replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.') + " mudas " + strMuda.sup()
+                }
             }           
         }
     }
