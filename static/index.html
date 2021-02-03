@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
     <!-- CSS da calculadora -->
     <link rel="stylesheet" href="calculadora.css">
     <title>Calculadora Nexo</title>
@@ -25,18 +25,133 @@
             <a href="https://cetesb.sp.gov.br/licenciamentoambiental/wp-content/uploads/sites/32/2019/05/Resolu%C3%A7%C3%A3o-SMA-n%C2%BA-07-2017.pdf" target="_blank">Resolução SMA nº 07/17</a>,
             complementada pela 
             <a href="https://cetesb.sp.gov.br/licenciamentoambiental/wp-content/uploads/sites/32/2019/05/Resolu%C3%A7%C3%A3o-SMA-n%C2%BA-206-2018.pdf" target="_blank">Resolução SMA nº 206/18</a>,
-            para pedidos de supressão de vegetação no Estado de São Paulo.
+            para a estimativa da compensação ambiental necessária em pedidos de supressão de 
+            vegetação e intervenção em APP no Estado de São Paulo.
             Para outras localidades, entre em contato conosco!
             <br>
             <br>
             <b>
-            Faça uma simulação clicando nos botões das vegetações presentes em 
-            seu projeto e descubra sua área total para compensação ambiental:
+            Faça uma simulação<sup>a</sup> selecionando o seu município e informe a área de 
+            intervenção nos tipos de vegetação:
             </b>
         </p>
-        <div class="row" id="destino">
+
+        <div class="container calculadora">
+            <div class="row align-items-center linhas">
+                <div class="col-sm">
+                    <input list="recebeItens" class="lista" id="selecao" placeholder="Selecione um município">
+                    <datalist  id="recebeItens"></datalist>
+                </div>
+            </div>
+            <div class="row align-items-center linhas">
+                <div class="col-sm-8">
+                    <h5 id="tipoIntervencao">Intervenção em:</h5>
+                </div>
+                <div class="col-sm-4">
+                    <input type="radio" class="btn-check botao-area" name="options-outlined" id="ha" autocomplete="off" checked>
+                    <label class="btn btn-outline-warning" for="ha">ha</label>
+                    <input type="radio" class="btn-check botao-area" name="options-outlined" id="m2" autocomplete="off">
+                    <label class="btn btn-outline-warning" for="m2">m<sup>2</sup> </label>
+                </div>
+            </div>
+            <div class="row align-items-center linhas">
+                <div class="col-sm-8">
+                    Vegetação em Estágio Inicial
+                </div>
+                <div class="col-sm">
+                    <input type="number" class="entrada" placeholder="Área" id="vegEstInicial">
+                </div>
+            </div>
+            <div class="row align-items-center linhas">
+                <div class="col-sm-8">
+                    Vegetação em Estágio Médio
+                </div>
+                <div class="col-sm">
+                    <input type="number" class="entrada" placeholder="Área" id="vegEstMedio">
+                </div>
+            </div>
+            <div class="row align-items-center linhas">
+                <div class="col-sm-8">
+                    Vegetação em Estágio Avançado
+                </div>
+                <div class="col-sm">
+                    <input type="number" class="entrada" placeholder="Área" id="vegEstAvancado">
+                </div>
+            </div>
+            <div class="row align-items-center linhas">
+                <div class="col-sm-8">
+                    Mangue (Floresta Paludosa)
+                </div>
+                <div class="col-sm">
+                    <input type="number" class="entrada" placeholder="Área" id="mangue">
+                </div>
+            </div>
+            <div class="row align-items-center linhas">
+                <div class="col-sm-8">
+                    Campo Cerrado
+                </div>
+                <div class="col-sm">
+                    <input type="number" class="entrada" placeholder="Área" id="cerrado">
+                </div>
+            </div>
+            <div class="row align-items-center linhas">
+                <div class="col-sm-8">
+                    Área de Preservação Permanente (APP) <sup>b</sup>
+                </div>
+                <div class="col-sm">
+                    <input type="number" class="entrada" placeholder="Área" id="app">
+                </div>
+            </div>
+            <div class="row align-items-center linhas">
+                <div class="col-sm-8">
+                    Árvores Nativas Isoladas <sup>c</sup>
+                </div>
+                <div class="col-sm">
+                    <input type="number" min="0" step="1" class="entrada" placeholder="Nº de árvores" id="arvoresIsoladas">
+                </div>
+            </div>
+            <div class="row align-items-center linha-resultado ">
+                <div class="col-sm-7">
+                    <h6>TOTAL PARA COMPENSAÇÃO<h6>
+                </div>
+                <div class="col-sm">
+                    <div class="row align-items-center texto-resultado">
+                        <h6 id="resultado"></h6>
+                    </div>
+                    <div class="row align-items-center texto-resultado">
+                        <h6 id="resultadoMudas"></h6>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <p id="textoAsterisco" class="text-muted mb-5">
+            <sup>a</sup> O resultado informado consiste em uma estimativa, pois depende da verificação de informações 
+            em campo por um especialista. Espécies identificadas como ameaçadas, por exemplo, poderão ter um fator de compensação 
+            maior, alterando os resultados. Para saber mais sobre a sua situação, entre em contato conosco.
+            <br>
+            <br>
+            <sup>b</sup> Esse cálculo considera apenas as Áreas de Preservação Permanente (APP) 
+            desprovidas de vegetação, recobertas por vegetação pioneira ou exótica ou que envolvam o corte 
+            de árvores nativas isoladas, conforme o disposto no artigo 6º da
+            <a href="https://cetesb.sp.gov.br/licenciamentoambiental/wp-content/uploads/sites/32/2019/05/Resolu%C3%A7%C3%A3o-SMA-n%C2%BA-07-2017.pdf" target="_blank">Resolução SMA nº 07/17</a>.
+            Áreas de APP com vegetação a serem intervindas devem ser somadas à compensação pela 
+            supressão. Para saber mais sobre a sua situação, entre em contato conosco.
+            <br>
+            <br>
+            <sup>c</sup> O número de árvores é convertido em área na proporção de
+            1.000 árvores por um hectare, conforme o disposto no parágrafo 1º, do artigo 5º,
+            da
+            <a href="https://cetesb.sp.gov.br/licenciamentoambiental/wp-content/uploads/sites/32/2019/05/Resolu%C3%A7%C3%A3o-SMA-n%C2%BA-07-2017.pdf" target="_blank">Resolução SMA nº 07/17</a>.
+            <br>
+            <br>
+            <sup>d</sup> O total de mudas para a compensação é calculado considerando plantios totais, com 
+            espaçamento de 3x2 m. Para outros tipos de compensação, consulte os nossos serviços. 
+        </p>
+
+
         </div>
+
     </section>
 
     <!-- Optional JavaScript -->

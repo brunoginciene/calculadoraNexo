@@ -4,53 +4,62 @@
 
 #calculadoraText {
     text-align: center;
+    margin-bottom: 15px!important;
 }
 
 .calculadora {
-    margin-top: 10px;
+    background-color: #495057;
+    color: white;
+    max-width: 480px;
+    margin: auto;
+    padding: 15px; 
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
 }
 
-.calculadora .titulo {
+.linhas {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.lista {
     width: 100%;
-    padding: 10px;
-    background-color: grey;
-    color: white;
-    border-radius: 5px;
+    height: 30px;
+    border-radius: 0.25rem;
     text-align: center
 }
 
-table {
-    border-radius: 5px;
-    text-align: center;
+#tipoIntervencao {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-input {
-    width: 100px;
+.entrada {
+    width: 100%;
+    height: 30px;
     border-radius: 5px;
-    text-align: end;
+    text-align: right;
     
 }
 
-.resultado {
-    margin-top: 10px;
-}
-
-#resultadofinaltitulo {
-    width: 100%;
-    padding: 10px;
+.linha-resultado {
     background-color: rgba(124, 165, 73, 1);
-    color: white;
+    padding-top: 5px;
+    margin-left: 0.1px;
+    margin-right: 0.1px;
     border-radius: 5px;
-    text-align: center
 }
 
-#botaoCalcular {
-    margin-top: 10px;
-    width: 100%;
-    padding: 10px;
-    background-color: rgba(235, 177, 51, 1);
-    color: white;
-    border-radius: 5px;
+.texto-resultado{
+    text-align: end;
+
+}
+
+#textoAsterisco {
     text-align: center;
-    cursor: pointer;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    
 }
